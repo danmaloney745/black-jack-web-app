@@ -1,0 +1,448 @@
+/*start of body css*/
+body {
+    font-family: 'Abel', sans-serif;
+    background-color: #186a39;
+    color: #ffffff;
+    z-index: -5;
+}
+/*end of body css*/
+/*----------------------------------------------------------------*/
+/*start of layout components css */
+
+
+/*.row, .container{
+    background-color: #000000;
+}*/
+
+/*nav{
+    position: fixed;
+}*/
+
+.nav-wrapper{
+    background-color: #272828;
+    /*position: fixed;  */
+}
+
+nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+    z-index: 200;
+}
+
+nav{
+    /*position: fixed;*/
+    z-index: 100;
+}
+
+
+#homeBackground{ /*code for background image*/
+    position: fixed;
+    z-index: -100;
+}
+
+#title{
+    background-color: #186a39;
+    padding-top: 4%;
+    padding-bottom: 23%;
+}
+
+#titleLogin{
+    margin-top: 14%;
+}
+
+#titleRegister{
+    margin-top: 3%;
+}
+
+.cardStack {
+    position: absolute;
+}
+
+#login{
+    /*margin-top: 63.5%;
+    margin-left: 32%;*/
+    list-style: none;
+    background-color: transparent;
+}
+
+.container, #login{
+    background-color: transparent
+}
+
+#register{
+    /*margin-top: -3%;
+    margin-left: 61.5%;*/
+    list-style: none;
+    background-color: transparent;
+}
+
+.container, #register{
+    background-color: transparent
+}
+
+.computer{ 
+    position: relative;
+    z-index: 15;
+    margin-top: 17%;
+    margin-left: 3%;
+}
+
+.player{ 
+    position: relative;
+    z-index: 15;
+    margin-top: -9%;
+    margin-left: 3%;
+}
+
+/*.row, .homeChips{
+    display: inline; this line of code breaks the row container!!!!!
+}*/
+/*end of layout components css*/
+
+/*----------------------------------------------------------------*/
+
+/*start of text css*/
+h1, h2, h4, h5, h6{
+    text-align: center;
+    font-family: 'Cinzel Decorative', cursive;
+    color: #ffffff;
+    position: absolute;
+    z-index: 5;
+}
+
+
+p{
+    font-family: 'Abel', sans-serif;
+    color: #ffffff;
+}
+
+.label{
+    font-family: 'Abel', sans-serif;
+}
+
+#404{
+    text-align: center;
+    margin-top: 8%;
+}
+
+p #404Message{
+    margin-top: 15%;
+}
+/*end of font css*/
+
+/*----------------------------------------------------------------*/
+
+/*start of images css*/
+#imgLogo{
+    margin-left: 36%;
+    /*margin-top: 5%;*/
+}
+
+#littleLogo{
+    width: 45%;
+}
+
+#whiteLogo{
+    width: 17%;
+    padding-top: 1%;
+    margin-left: 1%;
+}
+
+#homeBackground{
+    width: 100%;
+    position: inherit;
+    /*margin-top: 2.5%;*/
+}
+#gameButtons{
+    position:absolute;
+    color:red;
+}
+#gameBoard{
+    position: fixed;
+    z-index: 0;
+    margin-top: 0.5%;
+}
+
+#gameButtons {
+    position: relative;
+}
+/*end of images css*/
+
+/*----------------------------------------------------------------*/
+
+
+/*start of placeholder boxes css*/
+
+.box{
+    /*background-color: pink;*/
+    background-image: url("../../card_images/blank.jpg");
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: inline-block; 
+    width: 6.45%; /* use to be 15%*/
+    height: 130px; /* use to be 200%*/
+}
+
+#accountInfo{
+    margin-left: 0%;
+    margin-top: 2%;
+}
+
+#accountMenu{
+    margin-left: 22%;
+    margin-top: 10%;
+}
+
+#accountContent{
+    background-color: #255b3a;
+    color: #ffffff;
+    /*border-radius: 12%;*/
+    border: 5px solid #ffffff;
+    padding: 4%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    line-height: 170%;
+}
+
+.boxinfo{
+    /*background-color: #255b3a;*/
+    color: #ffffff;
+    font-family: 'Abel', sans-serif;
+    /*margin-left: 2%;*/
+    /*margin-right: 2%;*/
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: inline-block; 
+    width: 100%;
+    padding: 4%;
+    border-radius: 12%;
+    /*border: 5px solid #ffffff;*/
+    line-height: 2vw;
+}
+
+.btn, .waves-effect waves-light miniMenu{
+    margin-top: 3%;
+}
+
+#playButton{
+    width: 100%;
+    /*background-color: #a43934;*/
+    padding: 3%;
+    float: right;
+    text-align: center;
+    border-radius: 12%;
+    margin-top: 2%;
+    /*margin-right: 4%;*/
+
+}
+
+#message{
+    position: fixed;
+    background-color: #1a462b;
+    margin-left: 25.5%;
+    width: 20vw;
+    text-align: center;
+    border: 2px dashed white;
+}
+/*end of placeholder boxes css*/
+
+
+/*----------------------------------------------------------------*/
+
+/*start of button css*/
+.btn{
+    background-color: #272828;
+}
+
+#loginChip{
+    width: 20%;
+}
+
+#registerChip{
+    width: 34%;
+}
+/*end of button css*/
+
+/*----------------------------------------------------------------*/
+
+/*start of the forms css*/
+.input-field .prefix{
+    position: inherit;
+}
+/*end of the forms css*/
+
+/*start of sidebar css*/
+#moneyManager{
+    position:absolute;
+    top:120px;
+    left:7%;
+    border: 2px dashed white;
+    width:100px;
+    z-index: 100;
+}
+#myBalance{
+    padding:3px;
+}
+#currentBet{
+    padding:3px;
+}
+
+#winnings{
+    padding: 3px;
+}
+
+.input{
+    background-color: red;
+}
+/*end of sidebar css*/
+
+/*----------------------------------------------------------------*/
+
+/*start new user page - register form section*/
+.input-field{
+    font-family: 'Abel', sans-serif;
+}
+
+input:not([type]), input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea{
+    border-bottom: 2px solid #fffb8a;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 2px solid #fffb8a;
+    box-shadow: 0 2px 0 0 #fffb8a;
+    font-family: 'Abel', sans-serif;
+}
+
+.input-field input[type=email]:focus {
+    border-bottom: 2px solid #fffb8a;
+    box-shadow: 0 2px 0 0 #fffb8a;
+    font-family: 'Abel', sans-serif;
+}
+
+.input-field input[type=password]:focus {
+    border-bottom: 2px solid #fffb8a;
+    box-shadow: 0 2px 0 0 #fffb8a;
+    font-family: 'Abel', sans-serif;
+}
+
+/*button section*/
+.btn {
+    background-color: #272828;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.btn:active {
+    background-color: #272828;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.btn:hover {
+    background-color: #272828;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.btn:valid {
+    background-color: #272828;
+    font-family: 'Cinzel Decorative', cursive;
+}
+#0{
+    background-image: url("/Users/Tech-A36/Desktop/BlackjackWeb/public/card_images/Kh.png");
+}
+/*end of button css*/
+
+/*start of line css*/
+input:not([type]):focus:not([readonly]),
+input[type=text]:focus:not([readonly]),
+input[type=password]:focus:not([readonly]),
+input[type=email]:focus:not([readonly]),
+input[type=url]:focus:not([readonly]),
+input[type=time]:focus:not([readonly]),
+input[type=date]:focus:not([readonly]),
+input[type=datetime]:focus:not([readonly]),
+input[type=datetime-local]:focus:not([readonly]),
+input[type=tel]:focus:not([readonly]),
+input[type=number]:focus:not([readonly]),
+input[type=search]:focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+   border-bottom: 1px solid #ffd48a !important;
+   box-shadow: 0 1px 0 0 #ffd48a !important;
+}
+/*end of line css*/
+/*end new user page - register form section*/
+/*----------------------------------------------------------------*/
+
+/*start of media querys */
+@media screen and (min-width: 1280px) {
+    #login{
+        margin-top: -27.5%;
+        margin-left: 27%;
+        list-style: none;
+        background-color: transparent;
+    }
+
+    #register{
+        margin-top: -15.3%;
+        margin-left: 55.9%;
+        list-style: none;
+        background-color: transparent;
+    }
+}
+/*end of media querys */
+/*----------------------------------------------------------------*/
+
+#card0 {
+    position: fixed;
+    margin-left: 1%;
+}
+
+#card1 {
+    position: fixed;
+    margin-left: 10%
+}
+
+#card2 {
+    position: fixed;
+    margin-left: 19%
+}
+
+#card3 {
+    position: fixed;
+    margin-left: 28%
+}
+
+#card4 {
+    position: fixed;
+    margin-left: 37%
+}
+
+#card5 {
+    position: fixed;
+    margin-left: 1%;
+    margin-top: 29%;
+}
+
+#card6 {
+    position: fixed;
+    margin-left: 10%;
+    margin-top: 29%;
+}
+
+#card7 {
+    position: fixed;
+    margin-left: 19%;
+    margin-top: 29%;
+}
+
+#card8 {
+    position: fixed;
+    margin-left: 28%;
+    margin-top: 29%;
+}
+
+#card9 {
+    position: fixed;
+    margin-left: 37%;
+    margin-top: 29%;
+}
